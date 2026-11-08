@@ -1,0 +1,41 @@
+name: lorry_adda_admin
+description: "Lorry Adda — web admin panel."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Shared with mobile app
+  get: ^4.7.3
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^8.1.0
+  flutter_svg: ^2.3.0
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+  shimmer: ^3.0.0
+  iconsax: ^0.0.8
+  gap: ^3.0.1
+
+  # Admin / web-only
+  go_router: ^14.6.2
+  data_table_2: ^2.5.15
+  fl_chart: ^0.69.0
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/svgs/
